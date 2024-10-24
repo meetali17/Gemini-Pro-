@@ -11,7 +11,7 @@ load_dotenv()
 # Configure Streamlit page settings
 st.set_page_config(
     page_title="Chat with Jacky",
-    page_icon=":brain:",  # Favicon emoji
+    page_icon=":airplane:",  # Favicon emoji
     layout="centered",  # Page layout option
 )
 
@@ -36,7 +36,7 @@ if "chat_session" not in st.session_state:
 
 
 # Display the chatbot's title on the page
-st.title("🤖 JackBot - Your AI Friend")
+st.title("🌍 JackBot - Your Tourism Guide")
 
 # Display the chat history
 for message in st.session_state.chat_session.history:
